@@ -21,3 +21,24 @@ function createRandomArray() {
 function getRandomInteger(min, max) {
     return Math.round(Math.random() * (max-min) + min);
 }
+
+//console.log(randomArray.length)
+/*for(let i =0; i<randomArray.length; i++)
+{
+    console.log(randomArray[i])
+    if(randomArray[i] === randomArray[randomArray.length-1])
+    {
+        console.log(randomArray[randomArray.length-1])
+   }
+}*/
+
+randomArray.forEach(function(el, id)
+{
+   // console.log(el, id)
+    //console.log(randomArray[id])
+    if(randomArray[id] === randomArray[randomArray.length-1])
+    {
+        console.log(el)
+    }
+    
+})
