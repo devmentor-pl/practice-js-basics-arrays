@@ -2,6 +2,14 @@ const randomArray = createRandomArray();
 console.log(randomArray);
 
 
+// pętla for
+
+for (var i = 0; i < randomArray.length; i++) {
+  console.log('Uwaga, wyświetlam! ' + randomArray[i]);
+}
+
+// pętla z użyciem forEach()
+randomArray.forEach(el => console.log(el));
 
 // nie modyfikuj kodu poniżej!
 
