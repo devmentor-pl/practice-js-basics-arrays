@@ -9,7 +9,7 @@ const users1 = ["Wisława Szymborska", "Czesław Miłosz", "Lech Wałęsa", "Ada
 const usersArr = Array.from(users);
 
 for (let i = 0; i < usersArr.length; i++) {
-  if (usersArr[i] % 2 !== 0) {
+  if (i % 2 !== 0) {
     console.log(usersArr[i]);
   }
 };
