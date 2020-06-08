@@ -13,11 +13,13 @@ function isOdd(el) {
 function generateNumbers() {
   let arr = [];
 
-  for (var i = 0; i < n; i++) {
-    let num = Math.round(Math.random() * n);
-    if (isOdd(num)) {
-      arr.push(num);
-    }
+  for (let i = 0; i < n; i++) {
+    // let num = Math.round(Math.random() * n);
+
+      if (isOdd(i)) {
+        arr.push(i);
+      }
+
   };
   return arr;
 };

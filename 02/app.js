@@ -4,7 +4,7 @@ console.log(randomArray);
 
 // pętla for
 
-for (var i = 0; i < randomArray.length; i++) {
+for (let i = 0; i < randomArray.length; i++) {
   console.log('Uwaga, wyświetlam! ' + randomArray[i]);
 }
 
