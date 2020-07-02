@@ -1,12 +1,7 @@
-const years = [1980, 1934, 2002, 2019];
-const today = new Date().getFullYear();
-const diff = years.map(getDiff)
+const years = [1980, 1934, 2002, 2019, 1, 60, 40];
+const diff = years.map(function(date) {
+    const today = new Date().getFullYear();
+    return today - date;
+})
 
-function getDiff() {
-    for (let i = 0; i < years.length; i++) {
-        const result = today - years[i];
-        console.log(result)
-    }
-
-};
 console.log(diff)
