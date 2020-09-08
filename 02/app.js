@@ -1,6 +1,16 @@
 const randomArray = createRandomArray();
 console.log(randomArray);
 
+console.log('for loop effect:')
+for(let i = 0; i < randomArray.length; i++) {
+    console.log(randomArray[i])
+}
+console.log('forEach effect:')
+randomArray.forEach(num => {
+    console.log(num)
+});
+console.log('The last element of the array is:')
+console.log(randomArray[randomArray.length - 1])
 
 
 // nie modyfikuj kodu poniżej!
