@@ -1,5 +1,23 @@
 const randomArray = createRandomArray();
-console.log(randomArray);
+// console.log(randomArray);
+const showForArray = showFor(randomArray);
+console.log('-----');
+const showForEachArray = showForEach(randomArray);
+console.log('-----');
+console.log('Ostatni element: ' + randomArray[randomArray.length-1]);
+
+function showFor(array){
+    for(let i=0; i<array.length; i++){
+        console.log(array[i]);
+    }
+}
+
+function showForEach(array){
+    array.forEach(function(element){
+        console.log(element);
+    }
+    )
+}
 
 
 
