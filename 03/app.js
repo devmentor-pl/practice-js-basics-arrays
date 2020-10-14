@@ -1,14 +1,16 @@
 const n = 24;
-const oddNumbers = [];
 
-fillArray(oddNumbers);
 
-console.log(oddNumbers);
+const filledArray = fillArrayWithOdd();
 
-function fillArray(array){
-    for(let i=0; i<=n; i++){
-        if(i%2!==0){
-          array.push(i);
-        }
+console.log(filledArray);
+
+function fillArrayWithOdd() {
+  let oddNumbers = [];
+  for (let i = 0; i <= n; i++) {
+    if (i % 2 !== 0) {
+      oddNumbers.push(i);
     }
+  }
+  return oddNumbers;
 }

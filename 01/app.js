@@ -1,20 +1,20 @@
-const users = ['Adam Kowalski', 'Michał Stasiak', 'Andrzej Wasilewski', 'Maria Nowak', 'Zofia Kowalska' ,'Barbara Nowakowska'];
-const oddUsers =[];
+const users = ['Adam Kowalski', 'Michał Stasiak', 'Andrzej Wasilewski', 'Maria Nowak', 'Zofia Kowalska', 'Barbara Nowakowska'];
+const oddUsers = [];
 
 oddIndex(users, oddUsers);
-showOdd(oddUsers);
+showArray(oddUsers);
 
 
-function oddIndex(array, evenArray){
-    for(let i=0; i<array.length; i++){
-        if(i%2===1){
+function oddIndex(array, evenArray) {
+    for (let i = 0; i < array.length; i++) {
+        if (i % 2 === 1) {
             evenArray.push(array[i]);
         }
     }
 }
 
-function showOdd(array){
-   array.forEach(element => {
+function showArray(array) {
+    array.forEach(element => {
         console.log(element);
     });
 }
