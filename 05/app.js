@@ -1,12 +1,19 @@
-const numbers = [1, 2, 3, 4, 5, 6, 7];
-const evenNumbersSum = numbers.filter(onlyEven).reduce(sum);
-console.log(evenNumbersSum);
+const numbers = [];
 
+const evenSumArray = evenSum(numbers);
+console.log(evenSumArray)
 
-function onlyEven(element){
-    return element%2===0;
+function evenSum(array) {
+    if (array.length > 0) {
+        const evenNumbersSum = numbers.filter(onlyEven).reduce(sum);
+        return evenNumbersSum;
+    } else return 0;
 }
 
-function sum(a,b){
-    return a+b;
+function onlyEven(element) {
+    return element % 2 === 0;
+}
+
+function sum(a, b) {
+    return a + b;
 }
