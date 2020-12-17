@@ -1,7 +1,18 @@
 const randomArray = createRandomArray();
+const forArrayLog = printArray(randomArray);
 console.log(randomArray);
 
+// For loop 
+function printArray(array) {
+    for(let i =0; i < array.length; i++) {
+      console.log(`Following data from position array[${i}]: ${array[i]}`);
+    }
+}
 
+//ForEach 
+const forEachLog = randomArray.forEach(function(element){
+    console.log(`Foreach gives us: ${element}`)
+})
 
 // nie modyfikuj kodu poniżej!
 
