@@ -1,8 +1,13 @@
 const randomArray = createRandomArray();
 console.log(randomArray);
 
+for(let i = 0; i < randomArray.length; i++) {
+    console.log(randomArray[i]);
+}
 
+randomArray.forEach(function(number) { console.log(number)});
 
+console.log(`Ostatni element tablicy dla fora to ${randomArray[randomArray.length - 1]}`);
 // nie modyfikuj kodu poniżej!
 
 // funkcję może deklarować poniżej wywołania
