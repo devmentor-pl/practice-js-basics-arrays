@@ -15,9 +15,21 @@ function createRandomArray() {
         arr.push( getRandomInteger(1, 100) );
     }
 
+    /*rozwiązanie z pętlą for*/ 
+    for (let i = 0; i <= 10; i++ ) {
+        console.log(arr[i]);
+    };
+
+    /*rozwiązanie z forEach*/ 
+    arr.forEach(function(element) {
+        console.log(element);
+    });
+
     return arr;
 }
 
 function getRandomInteger(min, max) {
     return Math.round(Math.random() * (max-min) + min);
 }
+
+
