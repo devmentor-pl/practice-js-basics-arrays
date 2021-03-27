@@ -1,9 +1,21 @@
 const randomArray = createRandomArray();
 console.log(randomArray);
 
+console.log('Zadanie wykonane za pomocą pętli for:')
+for (let i = 0; i < randomArray.length; i++) {
+    console.log(randomArray[i])  
+}
+
+console.log('Zadanie wykonane za pomocą .forEach():')
+randomArray.forEach(number => {
+    console.log(number)
+});
 
 
-// nie modyfikuj kodu poniżej!
+
+console.log('Ostatni element listy wynosi:')
+console.log(randomArray[randomArray.length - 1]);
+
 
 // funkcję może deklarować poniżej wywołania
 // ponieważ w JS występuje mechanizm tzw. hoisting-u
@@ -18,6 +30,8 @@ function createRandomArray() {
     return arr;
 }
 
+
 function getRandomInteger(min, max) {
     return Math.round(Math.random() * (max-min) + min);
 }
+
