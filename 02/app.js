@@ -1,8 +1,6 @@
 const randomArray = createRandomArray();
 console.log(randomArray);
 
-
-
 // nie modyfikuj kodu poniżej!
 
 // funkcję może deklarować poniżej wywołania
@@ -21,3 +19,36 @@ function createRandomArray() {
 function getRandomInteger(min, max) {
     return Math.round(Math.random() * (max-min) + min);
 }
+
+//task
+
+console.log('wyświetlenie w konsoli wszystkich elementów randomArray za pomocą pętli FOR')
+
+for (let i = 0; i < randomArray.length; i++) {
+    console.log(randomArray[i])
+}
+
+console.log('wyświetlenie w konsoli wszystkich elementów randomArray za pomocą metody tablicowej forEach')
+
+randomArray.forEach((el) => console.log(el));
+
+//https://developer.mozilla.org/pl/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+console.log('Wyświetla elementy randomArray jako stringi')
+
+var writer = {
+    sb:       [],
+    write:    function (s) {
+        this.sb.push(s);
+    },
+    writeln:  function (s) {
+        this.write(s + "\n");
+    },
+    toString: function () {
+        return this.sb.join("");
+    }
+};
+
+randomArray.forEach(writer.writeln, writer);
+console.log(writer.toString());
+
+console.log('Liczba elementów tablicy randomArray: ' + randomArray.length)
