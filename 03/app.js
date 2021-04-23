@@ -1,8 +1,6 @@
 const n = 24;
 const oddNumbers = [];
 
-
-
 function pushNumber() {
 
     while(oddNumbers.length < n) {
@@ -17,8 +15,4 @@ function pushNumber() {
 }
 
 pushNumber();
-
-
-
-
 
