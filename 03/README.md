@@ -8,7 +8,7 @@ W pliku `app.js` znajdziesz dwie zmienne. Zmienna `n` określa maksymalną warto
 
 Twoim zadaniem będzie napisać program, który uzupełni w sposób automatyczny (czyli pewnie przy wykorzystaniu pętli) tablicę `oddNumbers` tylko i wyłącznie liczbami nieparzystymi, które występują w ciągu od 1 do n.
 
-Program należy napisać w taki sposób, że zmiana wartości dla `n`, nie powinna powodować błędów w działaniu. Pamiętaj, aby sprawdzić czy wszystko działa prawidłowo. Najcześciej robimy to poprzez sprawdzenie warunków przegowych. W tym przypadku tymi warunkami brzegowymi mogą być liczby `n=0`, `n=1`, `n=100`.
+Program należy napisać w taki sposób, że zmiana wartości dla `n`, nie powinna powodować błędów w działaniu. Pamiętaj, aby sprawdzić czy wszystko działa prawidłowo. Najcześciej robimy to poprzez sprawdzenie warunków brzegowych. W tym przypadku tymi warunkami brzegowymi mogą być liczby `n=0`, `n=1`, `n=100`.
 
 
 &nbsp;
