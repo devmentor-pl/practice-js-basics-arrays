@@ -14,7 +14,7 @@ console.log('first solution: ' + oddNumbers)
 const oddNumbers2 = [];
 
 for (let i = 0; i <= n; i++) {
-    if (i % 2 == 1) {
+    if (i % 2 === 1) {
         oddNumbers2.push(i);
     }
 }

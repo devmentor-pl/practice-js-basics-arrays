@@ -35,7 +35,7 @@ randomArray.forEach((el) => console.log(el));
 //https://developer.mozilla.org/pl/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
 console.log('Wyświetla elementy randomArray jako stringi')
 
-var writer = {
+const writer = {
     sb:       [],
     write:    function (s) {
         this.sb.push(s);
