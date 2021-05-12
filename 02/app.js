@@ -1,5 +1,14 @@
 const randomArray = createRandomArray();
 console.log(randomArray);
+// Pętla for
+for(let j = 0; j < randomArray.length; j++){
+    console.log(`Za pomocą pętli for - ${randomArray[j]}`);
+}
+// Pętla forEach
+randomArray.forEach(item => console.log(`Za pomocą forEach - ${item}`));
+
+//Ostatni element
+console.log(`Ostatni element to ${randomArray[randomArray.length-1]}`); 
 
 
 
