@@ -11,7 +11,7 @@ function showEvenNumbers(a) {
 
 let result = numbers
     .filter(showEvenNumbers)
-    .reduce((a, b) => a + b)
+    .reduce((a, b) => a + b, 0);
 console.log(result)
 
 
