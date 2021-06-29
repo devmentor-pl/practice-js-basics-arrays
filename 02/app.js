@@ -1,6 +1,11 @@
 const randomArray = createRandomArray();
 console.log(randomArray);
 
+randomArray.forEach(function(element) {
+    console.log(element);
+})
+
+console.log('wartość ostatniego elementu:', randomArray[randomArray.length-1]);
 
 
 // nie modyfikuj kodu poniżej!
