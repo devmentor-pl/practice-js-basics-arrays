@@ -2,13 +2,17 @@
 
 &nbsp;
 
-# `#03` JavaScript: Podstawy - tablice
+# `#03` JavaScript: Podstawy – tablice
 
-W pliku `app.js` znajdziesz dwie zmienne. Zmienna `n` określa maksymalną wartość jaką może przechowywać tablica `oddNumbers`. Jednak jak sama nazwa wskazuje ma ona przechowywać jedynie liczby nieparzyste.
+W pliku `app.js` znajdziesz dwie zmienne:
+- wartością zmiennej `n` jest liczba, która określa maksymalną wartość, jaką może przechowywać tablica `oddNumbers`,
+- wartością zmiennej `oddNumbers` jest pusta tablica. Jak wskazuje nazwa zmiennej, docelowo w tablicy mogą znaleźć się jedynie liczby nieparzyste.
 
-Twoim zadaniem będzie napisać program, który uzupełni w sposób automatyczny (czyli pewnie przy wykorzystaniu pętli) tablicę `oddNumbers` tylko i wyłącznie liczbami nieparzystymi, które występują w ciągu od 1 do n.
+Napisz program, który uzupełni w sposób automatyczny (czyli pewnie przy wykorzystaniu pętli) tablicę `oddNumbers` wyłącznie liczbami nieparzystymi, które występują w ciągu od 1 do n.
 
-Program należy napisać w taki sposób, że zmiana wartości dla `n`, nie powinna powodować błędów w działaniu. Pamiętaj, aby sprawdzić czy wszystko działa prawidłowo. Najcześciej robimy to poprzez sprawdzenie warunków przegowych. W tym przypadku tymi warunkami brzegowymi mogą być liczby `n=0`, `n=1`, `n=100`.
+Program należy napisać w taki sposób, aby zmiana wartości dla `n` nie powodowała błędów w jego działaniu.
+
+Pamiętaj, aby sprawdzić, czy wszystko działa. Najczęściej robimy to poprzez sprawdzenie warunków brzegowych. W tym przypadku warunkami brzegowymi mogą być liczby `n=0`, `n=1`, `n=100`.
 
 
 &nbsp;
