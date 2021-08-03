@@ -2,9 +2,9 @@
 
 &nbsp;
 
-# JavaScript: Podstawy - tablice
+# JavaScript: Podstawy – tablice
 
-Tablice to podstawowa struktura danych wykorzystywana w języku JavaScript. Sprawdź czy Twoja wiedza z tablic i funkcji z nimi powiązanych jest wystarczająca!
+Tablice to podstawowa struktura danych wykorzystywana w języku JavaScript. Sprawdź, czy Twoja wiedza z tablic i powiązanych z nimi funkcji jest wystarczająca!
 
 &nbsp;
 
