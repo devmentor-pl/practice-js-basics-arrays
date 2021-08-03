@@ -2,13 +2,13 @@
 
 &nbsp;
 
-# `#04` JavaScript: Podstawy - tablice
+# `#04` JavaScript: Podstawy – tablice
 
-W pliku `app.js` znajdziesz zmienną o nazwie `years`, która przechowuje liczby określające rok.
+W pliku `app.js` znajdziesz zmienną o nazwie `years`, która przechowuje tablicę liczb określających rok.
 
-Twoim zadaniem będzie wygenerowanie na ich podstawie liczbę lat (czyli również tablicę przechowującą liczby), które minęły od wskazanej daty do obecnego czasu. Do rozwiązanie tego zadania wykorzystaj metodę tablicową `.map()`.
+Twoim zadaniem będzie wygenerowanie na jej podstawie nowej tablicy liczb określających lata, które minęły od wskazanej daty do obecnego czasu. Do rozwiązanie tego zadania wykorzystaj metodę tablicową `.map()`.
 
-np. `2020 - 1980 => 40` - ta liczna się pojawić jako pierwszy element nowej tablicy.
+Przykładowo: `2021 - 1980 = 41` – liczba 41 ma się pojawić jako pierwszy element nowej tablicy.
 
 &nbsp;
 
