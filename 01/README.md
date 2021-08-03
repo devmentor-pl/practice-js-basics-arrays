@@ -2,11 +2,11 @@
 
 &nbsp;
 
-# `#01` JavaScript: Podstawy - tablice
+# `#01` JavaScript: Podstawy – tablice
 
-Utwórz zmienną `users` w pliku `app.js` i przypisz do niej tablicę, która będzie przechowywać imiona i nazwiska osób w formie ciągu znaków.
+W pliku `app.js` stwórz zmienną `users` i przypisz do niej tablicę, która będzie przechowywać imiona i nazwiska przedstawionych w formie ciągu znaków.
 
-Następnie wyświetl w konsoli informacje o pierwszym, trzecim i piątym użytkowniku. Dodatkowo za pomocą właściwości `.length` wyświetl ile elementów zawiera tablica.
+Następnie wyświetl w konsoli informacje o pierwszym, trzecim i piątym użytkowniku. Dodatkowo z pomocą właściwości `.length` wyświetl, ile elementów zawiera tablica.
 
 
 &nbsp;
