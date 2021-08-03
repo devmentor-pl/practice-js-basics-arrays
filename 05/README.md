@@ -2,13 +2,13 @@
 
 &nbsp;
 
-# `#05` JavaScript: Podstawy - tablice
+# `#05` JavaScript: Podstawy – tablice
 
-W pliku `app.js` znajdziesz zmienną o nazwie `numbers`, która przechowuje liczby.
+W pliku `app.js` znajdziesz zmienną o nazwie `numbers`, która przechowuje tablicę liczb.
 
-Twoim zadaniem będzie obliczenie sumy dla wszystkich liczb parzystych przechowywanych w tej zmiennej.
+Twoim zadaniem będzie obliczenie sumy wszystkich liczb parzystych znajdujących się w tablicy.
 
-Do rozwiązania tego zadania masz wykorzystać funkcję tablicową `.filter()` oraz `.reduce()`.
+Do rozwiązania tego zadania wykorzystaj funkcję tablicową `.filter()` oraz `.reduce()`.
 
 &nbsp;
 
