@@ -6,7 +6,7 @@ const evenNumbers = numbers.filter(function (el) {
 
 const sum = evenNumbers.reduce(function (total, el) {
   return total + el;
-});
+}, 0);
 
 console.log(numbers);
 console.log(evenNumbers);
