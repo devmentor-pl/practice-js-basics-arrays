@@ -1,6 +1,6 @@
 const numbers = [1, 2, 3, 4, 5, 6, 7];
 const evenNumbers = numbers.filter(evenOperation);
-const finalNumber = evenNumbers.reduce(sumOperation);
+const finalNumber = evenNumbers.reduce(sumOperation, 0);
 
 function evenOperation(number) {
     if (number % 2 == 0) {
