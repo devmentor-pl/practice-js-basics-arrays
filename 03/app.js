@@ -8,7 +8,8 @@ function addCheckNumbers(array){
         if(i % 2 !== 0){
             array.push(i);
         }
-    }return array;
+    }
+    return array;
 }
 
 
