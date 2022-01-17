@@ -3,7 +3,7 @@ const randomArray = createRandomArray();
 console.log(randomArray);
 
 
-for(i=0; i<randomArray.length; i++) {
+for(let i=0; i<randomArray.length; i++) {
 console.log(randomArray[i]);
 }
 
