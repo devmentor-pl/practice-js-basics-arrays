@@ -1,8 +1,13 @@
 const randomArray = createRandomArray();
-console.log(randomArray);
-
-
-
+console.log('Pętla for:')
+for (let i=0;i<randomArray.length;i++)
+    console.log(randomArray[i])
+console.log('Pętla forEach:')
+    randomArray.forEach(element => {
+        console.log(element)
+    });
+console.log('Ostatni element:')    
+console.log(randomArray[randomArray.length-1])
 // nie modyfikuj kodu poniżej!
 
 // funkcję może deklarować poniżej wywołania
