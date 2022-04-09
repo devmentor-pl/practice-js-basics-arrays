@@ -15,27 +15,14 @@ function sumNumbers(numbers) {
 console.log(sumNumbers(numbers))
 
 
-console.log('------ filter ------')
-function sumByFilter(numbers) {
-    let sum = 0
-    numbers.filter(function(item) {
-        sum+= (item % 2 === 0) ? item : 0
-    })
-    return sum
-}
-console.log(sumByFilter(numbers))
+console.log('------ filter & reduce ------')
 
+const filterNumbers = numbers.filter(item => item % 2 === 0)
+console.log(filterNumbers)
 
-console.log('------ reduce ------')
-function sumByReduce(numbers) {
-    let sum = 0
-    sum = numbers.reduce(function(cur, next) {
-        nextEven = next % 2 === 0 ? next : 0
-        return cur + nextEven
-    }, 0)
-    return sum
-}
-console.log(sumByReduce(numbers))
+const reduceNumbersEven = filterNumbers.reduce((prev, next) => prev + next, 0)
+console.log(reduceNumbersEven)
+
 
 
 

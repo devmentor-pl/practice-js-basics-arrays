@@ -1,15 +1,12 @@
 const n = 24;
 const oddNumbers = [];
 
-let i = 0
-while (i < n) {
-    const randomNumber = Math.round(Math.random() * 100)
-    if (randomNumber % 2 !== 0) {
-        console.log(i, randomNumber, 'okey added')
-        oddNumbers.push(randomNumber)
-        i++
+for(let i=1; i<=n; i++) {
+    if (i % 2 === 0) {
+        console.log(i, 'even')
     } else {
-        console.log(i, randomNumber, 'fail')
+        console.log(i, 'odd')
+        oddNumbers.push(i)
     }
 }
 

@@ -6,9 +6,8 @@ const currentYear = (new Date()).getFullYear()
 console.log('current year: ' + currentYear)
 
 
-// anonymous function as as param
+// anonymous function as param
 const yearsPassed = years.map(function(year) {
-    const currentYear = (new Date()).getFullYear()
     return currentYear - year
 })
 console.log(yearsPassed)
@@ -16,7 +15,6 @@ console.log(yearsPassed)
 
 // named function as param
 function newYears(year) {
-    const currentYear = (new Date()).getFullYear()
     return currentYear - year
 }
 
