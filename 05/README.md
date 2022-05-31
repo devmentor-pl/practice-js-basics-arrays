@@ -15,3 +15,4 @@ Do rozwiązania tego zadania wykorzystaj funkcję tablicową `.filter()` oraz `.
 > :arrow_left: [*poprzednie zadanie*](./../04) | ~~*następne zadanie*~~ :arrow_right:
 
 > :no_entry: *Jeśli nie posiadasz materiałów do tego zadania, znajdziesz je na stronie [devmentor.pl](https://devmentor.pl/p/js-basics/)*
+
