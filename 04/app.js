@@ -10,3 +10,13 @@ function differenceFunction(element) {
 
 
 console.log(difference)
+
+//2
+
+const ages = years.map(function(item){
+    return currYear - item
+})
+
+console.log(ages)
+
+const currYear = (new Date().getFullYear())
