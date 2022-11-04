@@ -15,4 +15,4 @@ function addOddNumbers() {
     console.log(oddNumbers);
 }
 
-addOddNumbers(100);
+addOddNumbers();
