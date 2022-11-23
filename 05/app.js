@@ -4,8 +4,9 @@ console.log(sumEvenNumbers);
 
 function checkEvenNumbers(number) {
 	if (number % 2 === 0) {
-		return number;
+		return true;
 	}
+	return false;
 }
 
 function sumNumbers(sum, el) {
