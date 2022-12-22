@@ -10,6 +10,6 @@ console.log(evenNumbers);
 // Musiałem chwilę pogłówkować nad zasadą działania reduce, ale przy wsparciu dokumentacji + podobnego pytania na slacku mniej więcej zrozumiałem jak działa ta metoda
 const sumEvenNumbers = evenNumbers.reduce(function (total, num) {
     return total + num;
-})
+}, 0)
 
 console.log(sumEvenNumbers);
