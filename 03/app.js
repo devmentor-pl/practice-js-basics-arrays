@@ -1,6 +1,5 @@
 const n = 24;
 const oddNumbers = [];
-const arr = [];
 
 for (i = 0; i <= n; i++) {
   if (i % 2 !== 0) {
