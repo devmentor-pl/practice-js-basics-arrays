@@ -23,7 +23,7 @@ function getRandomInteger(min, max) {
 
 for (let i=0; i<randomArray.length; i++){
     console.log(randomArray[i]);
-    
+
 }
 
 randomArray.forEach((el, i, arr)=>{
@@ -32,4 +32,4 @@ randomArray.forEach((el, i, arr)=>{
 })
 
 
-console.log(randomArray[randomArray.length-1]);
+console.log(randomArray.length-1);
