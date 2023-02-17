@@ -22,11 +22,13 @@ function getRandomInteger(min, max) {
 
 
 for (let i=0; i<randomArray.length; i++){
-    console.log([i]);
+    console.log(randomArray[i]);
+    
 }
 
 randomArray.forEach((el, i, arr)=>{
-    console.log([i]);
+    console.log(el);
+
 })
 
 

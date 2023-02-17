@@ -13,3 +13,10 @@ const sum = evenItem.reduce(function(acc, curr){
     return acc + curr ;
 })
 console.log(sum);
+
+//funkcja strzałkowa
+
+const sum1 = evenItem.reduce(
+    (acc, curr) => acc +curr, 0
+)
+console.log(sum1);
