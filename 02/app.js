@@ -2,6 +2,11 @@ const randomArray = createRandomArray();
 console.log(randomArray);
 
 
+for (i=0; i<randomArray.length; i++) {
+    console.log(randomArray[i])
+}
+
+
 
 // nie modyfikuj kodu poniżej!
 
