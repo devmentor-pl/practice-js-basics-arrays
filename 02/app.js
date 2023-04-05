@@ -12,6 +12,8 @@ randomArray.forEach(function(item) {
 
 });
 
+const lastElement = randomArray.length - 1
+console.log(randomArray[lastElement])
 
 // nie modyfikuj kodu poniżej!
 
