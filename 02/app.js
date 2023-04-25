@@ -1,6 +1,19 @@
 const randomArray = createRandomArray();
 console.log(randomArray);
 
+showAllElements(randomArray);
+
+function showAllElements(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        console.log(arr[i]);
+    }
+}
+
+randomArray.forEach(function(element) {
+    console.log(element);
+});
+
+console.log(randomArray[randomArray.length - 1]);
 
 
 // nie modyfikuj kodu poniżej!
