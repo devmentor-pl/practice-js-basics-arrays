@@ -1,8 +1,17 @@
 const randomArray = createRandomArray();
 console.log(randomArray);
 
+for (let i = 0; i < randomArray.length; i++) {
+    console.log(randomArray[i]);
+}
 
+randomArray.forEach(showElements);
 
+function showElements(element) {
+    console.log(element);
+}
+
+console.log('Ostatni element tablicy to: ' + randomArray[randomArray.length - 1]);
 // nie modyfikuj kodu poniżej!
 
 // funkcję może deklarować poniżej wywołania
