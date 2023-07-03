@@ -5,7 +5,9 @@ function pushOddNumbers(n) {
     let element = 0;
     for (let i = 1; i <= n; i++) {
         element++;
-        oddNumbers.push(element);
+        if(element % 2 !== 0) {
+            oddNumbers.push(element);
+        }
     }
     console.log(oddNumbers);
 }
