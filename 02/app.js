@@ -1,17 +1,17 @@
 const randomArray = createRandomArray();
 // console.log(randomArray);
 
-const getArr = showArrEl(randomArray);
-
 function showArrEl() {
   const arr = randomArray;
   for (let i = 0; i < arr.length; i++) {
     console.log(arr[i]);
   }
     arr.forEach(function(num) {console.log(num)});
-    let lastElArr = arr.slice(-1);
-    console.log(lastElArr)
+    const lastElArr = arr.slice(-1);
+    console.log(...lastElArr)
 }
+
+showArrEl(randomArray)
 
 // nie modyfikuj kodu poniżej!
 
