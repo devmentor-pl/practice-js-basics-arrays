@@ -1,7 +1,5 @@
-const randomArray = createRandomArray();
-console.log(randomArray);
-
-
+const randomArray = createRandomArray()
+console.log(randomArray)
 
 // nie modyfikuj kodu poniżej!
 
@@ -9,15 +7,29 @@ console.log(randomArray);
 // ponieważ w JS występuje mechanizm tzw. hoisting-u
 
 function createRandomArray() {
-    const arr = [];
-    const len = getRandomInteger(1, 10)
-    for(let i=0; i<len; i++) {
-        arr.push( getRandomInteger(1, 100) );
-    }
+	const arr = []
+	const len = getRandomInteger(1, 10)
+	for (let i = 0; i < len; i++) {
+		arr.push(getRandomInteger(1, 100))
+	}
 
-    return arr;
+	return arr
 }
 
 function getRandomInteger(min, max) {
-    return Math.round(Math.random() * (max-min) + min);
+	return Math.round(Math.random() * (max - min) + min)
 }
+
+console.log('for loop')
+for (let i = 0; i < randomArray.length; i++) {
+	console.log(randomArray[i])
+}
+
+console.log('forEach')
+randomArray.forEach(function (element) {
+	console.log(element)
+})
+
+console.log() // only for emty space
+
+console.log(randomArray.slice(-1)[0])
