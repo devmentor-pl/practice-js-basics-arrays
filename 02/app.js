@@ -8,6 +8,16 @@ console.log(randomArray);
 // funkcję może deklarować poniżej wywołania
 // ponieważ w JS występuje mechanizm tzw. hoisting-u
 
+for(let i = 0; i < randomArray.length; i++) {
+    console.log(randomArray[i]);
+}
+
+randomArray.forEach(element => {
+    console.log(element)
+})
+
+console.log('Ostatni element to:' + randomArray[randomArray.length - 1]);
+
 function createRandomArray() {
     const arr = [];
     const len = getRandomInteger(1, 10)
