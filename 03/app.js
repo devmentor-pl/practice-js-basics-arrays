@@ -1,4 +1,4 @@
-const n = 24;
+const n = 26;
 const oddNumbers = [];
 
 for(let i=1; i<=n; i++) {
