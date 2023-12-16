@@ -9,7 +9,7 @@ randomArray.forEach(function(item) {
     console.log(item);
 })
 
-
+console.log(randomArray.slice(-1));
 
 // nie modyfikuj kodu poniżej!
 
