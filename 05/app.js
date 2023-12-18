@@ -7,7 +7,7 @@ const sumOfNumbers = sumNumbers.reduce(sumFilteredNum);
 console.log(sumOfNumbers);
 
 function getNumbers(elNumbers) {
-    return elNumbers % 2 === 1;
+    return elNumbers % 2 === 1; // tutaj chyba 0 ,a nie 1 ? 
 }
 
 function sumFilteredNum(tot, num) {

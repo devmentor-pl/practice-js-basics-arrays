@@ -1,7 +1,7 @@
 const randomArray = createRandomArray();
 console.log(randomArray);
 
-for(let i=0; i<= randomArray.length; i++) {
+for(let i=0; i< randomArray.length; i++) { //poprawione
     console.log(randomArray[i]);
 }
 
