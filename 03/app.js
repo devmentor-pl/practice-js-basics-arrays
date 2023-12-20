@@ -1,8 +1,8 @@
-const n = 100;
+const n = 1;
 const oddNumbers = [];
 
-for (let i = 0;i < n; i += 2 ) {
-    oddNumbers.push(i + 1);
+for (let i = 1; i <= n; i += 2) {
+    oddNumbers.push(i);
 }
 
 console.log(oddNumbers);
