@@ -6,7 +6,9 @@ for (let i = 0; i < randomArray.length; i++) {
 }
 
 console.log("With .forEach:")
-randomArray.forEach(function(value) {console.log(value);});
+randomArray.forEach(function(value) {
+  console.log(value);
+});
 
 const lastIndex = randomArray.length - 1;
 console.log("Ostatni element tablicy to: " + randomArray[lastIndex]);
