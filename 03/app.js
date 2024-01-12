@@ -4,7 +4,7 @@ console.log(oddNumbers);
 
 function getOddNumbers() {
   const oddNumbers = [];
-  for (i = 1; i <= n; i++) {
+  for (let i = 1; i <= n; i++) {
     if (i % 2 === 1) {
       oddNumbers.push(i);
     }
