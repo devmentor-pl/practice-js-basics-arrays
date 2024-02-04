@@ -8,7 +8,7 @@ W pliku `app.js` znajdziesz zmienną o nazwie `years`, która przechowuje tablic
 
 Twoim zadaniem będzie wygenerowanie na jej podstawie nowej tablicy liczb określających lata, które minęły od wskazanej daty do obecnego czasu. Do rozwiązanie tego zadania wykorzystaj metodę tablicową `.map()`.
 
-Przykładowo: `2021 - 1980 = 41` – liczba 41 ma się pojawić jako pierwszy element nowej tablicy.
+Przykładowo: `2024 - 1980 = 44` – liczba 44 ma się pojawić jako pierwszy element nowej tablicy.
 
 &nbsp;
 
