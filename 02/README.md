@@ -7,9 +7,13 @@
 W pliku `app.js` znajdziesz dwie funkcje, których masz nie modyfikować.
 
 - Funkcja `getRandomInteger` losuje liczby całkowite z przedziału, który został zdefiniowany przez parametry.
+
 - Funkcja `createRandomArray` tworzy tablicę o losowej liczbie elementów (od 1 do 10). Elementami tymi są losowe liczby z przedziału od 1 do 100. 
 
-Zwróć uwagę, że każda z funkcji wykonuje jedno konkretne zdanie. Tak należy je budować. Zauważ również, że funkcja `getRandomInteger` jest wykorzystywana w 2 miejscach. To był prawdziwy powód jej utworzenia. Zamiast w obu miejscach powielać kod, umieściłem go w jednej funkcji i to ją wykorzystałem dwukrotnie.
+Zwróć uwagę, że każda z funkcji wykonuje jedno konkretne zadanie. 
+Tak należy je budować. 
+Zauważ również, że funkcja `getRandomInteger` jest wykorzystywana w 2 miejscach. To był prawdziwy powód jej utworzenia. 
+Zamiast w obu miejscach powielać kod, umieściłem go w jednej funkcji i to ją wykorzystałem dwukrotnie.
 
 Tym razem Twoim zadaniem będzie wyświetlenie w konsoli wszystkich elementów tablicy:
 - najpierw przy pomocy pętli `for`,
