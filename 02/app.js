@@ -1,6 +1,29 @@
+// czy w metodzie .forEach() we wzorze element, index i array, zawsze są na 1., 2. 3. miejscu? Ską∂ JS wie, o co nam chodzi?
+
 const randomArray = createRandomArray();
 console.log(randomArray);
 
+// wyświetlenie wszystkich elementów przy uzyciu pętli for oraz wyświetlenie ostatniego elementu
+
+for(i = 0; i < randomArray.length; i ++) {
+    console.log(randomArray[i]);
+}
+
+const lastNumber = randomArray[randomArray.length -1];
+console.log(lastNumber, 'ostatni element');
+
+// wyświetlenie wszystkich elementów przy uzyciu .forEach()
+
+randomArray.forEach(function(element, index) {
+    console.log(element, ' => ', index)
+});
+
+// 2-ga wersja
+function showItemsOfArray(item) {
+    console.log(item);
+}
+
+numbers.forEach(showItemsOfArray);
 
 
 // nie modyfikuj kodu poniżej!
@@ -20,8 +43,4 @@ function createRandomArray() {
 
 function getRandomInteger(min, max) {
     return Math.round(Math.random() * (max-min) + min);
-}
-
-for(let x = 0; x < randomArray; x ++) {
-    console.log(x);
 }
