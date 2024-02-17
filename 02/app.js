@@ -1,5 +1,3 @@
-// czy w metodzie .forEach() we wzorze element, index i array, zawsze są na 1., 2. 3. miejscu? Ską∂ JS wie, o co nam chodzi?
-
 const randomArray = createRandomArray();
 console.log(randomArray);
 
