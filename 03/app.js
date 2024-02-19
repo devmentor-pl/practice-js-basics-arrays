@@ -6,4 +6,4 @@ for(let i = 0; i < n; i ++) {
         oddNumbers.push([i]);
     }
 }
-console.log(oddNumbers)
+console.log(oddNumbers);

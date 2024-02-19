@@ -21,7 +21,7 @@ function showItemsOfArray(item) {
     console.log(item);
 }
 
-numbers.forEach(showItemsOfArray);
+randomArray.forEach(showItemsOfArray);
 
 
 // nie modyfikuj kodu poniżej!
