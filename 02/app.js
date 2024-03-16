@@ -1,7 +1,10 @@
 const randomArray = createRandomArray();
 console.log(randomArray);
 
-
+console.log('Elementy tablicy wyświetlone pętlą for:');
+for (let i=0; i<randomArray.length;i++) {
+    console.log(randomArray[i]);
+}
 
 // nie modyfikuj kodu poniżej!
 
