@@ -6,6 +6,10 @@ for (let i=0; i<randomArray.length;i++) {
     console.log(randomArray[i]);
 }
 
+console.log('Elementy tablicy wyświetlone metodą forEach()');
+randomArray.forEach(function(number) {console.log(number);
+});
+
 // nie modyfikuj kodu poniżej!
 
 // funkcję może deklarować poniżej wywołania
