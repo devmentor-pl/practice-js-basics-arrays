@@ -1,7 +1,18 @@
 const randomArray = createRandomArray();
 console.log(randomArray);
 
+for(let i=  0; i < randomArray.length; i++) {
+    console.log(randomArray[i]);
+};
 
+console.log('spacja'); //to dla przejrzystosci w consoli
+
+randomArray.forEach(function(num) {
+    console.log(num)
+});
+
+let arrayLength = randomArray.length
+console.log('Ostatni element listy to: ' + randomArray[arrayLength - 1])
 
 // nie modyfikuj kodu poniżej!
 
