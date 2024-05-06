@@ -1,6 +1,15 @@
 const randomArray = createRandomArray();
 console.log(randomArray);
 
+console.log("For loop:")
+for(let i = 0; i < randomArray.length; i++) {
+    console.log(randomArray[i]);
+}
+
+console.log("ForEach loop:")
+randomArray.forEach(function(element) {
+    console.log(element);
+});
 
 
 // nie modyfikuj kodu poniżej!
