@@ -1,8 +1,16 @@
 const randomArray = createRandomArray();
 console.log(randomArray);
 
+for(let i=0; i<randomArray.length; i++){
+    console.log(randomArray[i]);
+}
+console.log('-------------------');
+randomArray.forEach(function(item, index, array){
+    console.log(item);
+});
 
-
+console.log('-------------------');
+console.log(randomArray[randomArray.length -1]);
 // nie modyfikuj kodu poniżej!
 
 // funkcję może deklarować poniżej wywołania
