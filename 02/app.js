@@ -21,3 +21,11 @@ function createRandomArray() {
 function getRandomInteger(min, max) {
     return Math.round(Math.random() * (max-min) + min);
 }
+
+/* for(let i = 0; i < randomArray.length; i++) {
+    console.log(randomArray[i])
+} */
+function printElement(element) {
+    console.log(element)
+}
+randomArray.forEach(printElement)
