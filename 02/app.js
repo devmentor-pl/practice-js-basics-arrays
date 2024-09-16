@@ -1,6 +1,18 @@
 const randomArray = createRandomArray();
 console.log(randomArray);
 
+console.log('------ for ------')
+for(let i=0; i<randomArray.length; i++) {
+    console.log(randomArray[i])
+}
+
+console.log('------ forEach ------')
+randomArray.forEach(function(item) {
+    console.log(item)
+})
+
+console.log('------ last Element ------')
+console.log(randomArray[randomArray.length - 1])
 
 
 // nie modyfikuj kodu poniżej!
