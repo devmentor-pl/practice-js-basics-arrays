@@ -13,6 +13,8 @@ function createRandomArray() {
     const len = getRandomInteger(1, 10)
     for(let i=0; i<len; i++) {
         arr.push( getRandomInteger(1, 100) );
+
+        console.log('"for" loop: ' , arr[i]);
     }
 
     return arr;
@@ -21,3 +23,9 @@ function createRandomArray() {
 function getRandomInteger(min, max) {
     return Math.round(Math.random() * (max-min) + min);
 }
+
+randomArray.forEach( function(item) {
+    console.log('"for.Each" method: ' , item)
+});
+
+console.log('The last item of the array is: ' , randomArray.slice(-1));
