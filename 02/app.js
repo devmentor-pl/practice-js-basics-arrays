@@ -1,7 +1,19 @@
 const randomArray = createRandomArray();
 console.log(randomArray);
 
+console.log("Pętla for:")
 
+for(let i = 0; i < randomArray.length; i++) {
+    console.log(randomArray[i]);
+}
+
+console.log("forEach:")
+
+randomArray.forEach(function(number) {
+    console.log(number);
+});
+
+console.log("ostatni element tablicy: " + randomArray[randomArray.length - 1]);
 
 // nie modyfikuj kodu poniżej!
 
