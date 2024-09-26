@@ -1,6 +1,16 @@
 const randomArray = createRandomArray();
 console.log(randomArray);
 
+for (let i = 0; i < randomArray.length; i++) {
+    console.log(`for loop: ${randomArray[i]}`);
+}
+
+randomArray.forEach(function(num) {
+    console.log(`forEach method: ${num}`);
+})
+
+const lastNum = randomArray[randomArray.length -1];
+console.log(`Last array number is: ${lastNum}`)
 
 
 // nie modyfikuj kodu poniżej!
