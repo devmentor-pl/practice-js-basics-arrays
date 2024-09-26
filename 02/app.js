@@ -21,3 +21,14 @@ function createRandomArray() {
 function getRandomInteger(min, max) {
     return Math.round(Math.random() * (max-min) + min);
 }
+console.log("pętla FOR")
+for(let i=0;i<randomArray.length;i++){
+   console.log(randomArray[i]);
+}
+
+console.log("metoda tablicowa .forEach()")
+let num;
+randomArray.forEach(function(num){
+   console.log(num);
+});
+
