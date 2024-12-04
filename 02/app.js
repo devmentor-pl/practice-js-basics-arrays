@@ -21,3 +21,19 @@ function createRandomArray() {
 function getRandomInteger(min, max) {
     return Math.round(Math.random() * (max-min) + min);
 }
+
+
+// function showArrayElement(arr){
+//     for (let i=0; i < arr.length; i++){
+//         console.log(arr[i]);
+//     }
+// }
+
+// showArrayElement(randomArray);
+
+function showArrayElement(arr){
+    arr.forEach((element) => console.log(element));
+    console.log(` Ostatni element tablicy to: ${arr[arr.length - 1]}`);
+}
+
+showArrayElement(randomArray);
