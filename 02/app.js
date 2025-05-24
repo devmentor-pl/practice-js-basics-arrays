@@ -29,3 +29,6 @@ for (let i = 0; i < randomArray.length; i++) {
 randomArray.forEach(function (element, index, array) {
     console.log(element);
 });
+
+const lastIndex = randomArray.length-1;
+console.log('Ostatni element tablicy to: ' + randomArray[lastIndex]);
