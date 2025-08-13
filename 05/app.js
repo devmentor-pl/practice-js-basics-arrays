@@ -1,7 +1,7 @@
-const numbers = [1, 2, 3, 4, 5, 6, 7];
+// const numbers = [1, 2, 3, 4, 5, 6, 7];
 
-function sumEvenNumbers() {
-  const evenNumbers = numbers.filter(function (el) {
+function sumEvenNumbers(arr) {
+  const evenNumbers = arr.filter(function (el) {
     return el % 2 === 0;
   });
   const evenNumbersSum = evenNumbers.reduce(function (sum, el) {
@@ -9,4 +9,4 @@ function sumEvenNumbers() {
   }, 0);
   console.log(evenNumbersSum);
 }
-sumEvenNumbers();
+sumEvenNumbers([1, 2, 3]);
