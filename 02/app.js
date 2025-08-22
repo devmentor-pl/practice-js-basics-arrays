@@ -21,3 +21,22 @@ function createRandomArray() {
 function getRandomInteger(min, max) {
     return Math.round(Math.random() * (max-min) + min);
 }
+
+
+// wyświetlanie danych w konsoli
+for(let i=0; i<randomArray.length; i++) {
+ console.log(randomArray[i]);
+}
+
+function showItemWithIndex(item, index) {
+    console.log(index, '=>', item);
+   }
+randomArray.forEach(showItemWithIndex);
+
+
+const evenNumbers = randomArray.slice(-1);
+console.log(evenNumbers);
+   
+
+
+   
