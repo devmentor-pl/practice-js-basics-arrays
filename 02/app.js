@@ -1,7 +1,14 @@
 const randomArray = createRandomArray();
 console.log(randomArray);
 
+for(let i=0;i<randomArray.length;i++){
+  console.log(randomArray[i])
+}
 
+randomArray.forEach(random=>
+console.log(random)
+)
+console.log(randomArray[randomArray.length -1])
 
 // nie modyfikuj kodu poniżej!
 
@@ -21,3 +28,5 @@ function createRandomArray() {
 function getRandomInteger(min, max) {
     return Math.round(Math.random() * (max-min) + min);
 }
+
+//getRandomInteger(20,30)
