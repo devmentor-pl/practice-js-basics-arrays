@@ -1,7 +1,20 @@
 const randomArray = createRandomArray();
 console.log(randomArray);
 
+//Wyświetlenie wszystkich elementów:
+// 1. przy pomocy pętli for
+for (let i=0; i<randomArray.length; i++) {
+    console.log(randomArray[i]);
+};
 
+// 2. przy pomocy metody tablicowej .forEach()
+randomArray.forEach(function(item){
+    console.log(item);
+});
+
+//Wyświetlenie wartości ostatniego elementu tablicy:
+const lastIndex=randomArray.length-1;
+console.log(randomArray[lastIndex]);
 
 // nie modyfikuj kodu poniżej!
 
