@@ -21,3 +21,5 @@ function createRandomArray() {
 function getRandomInteger(min, max) {
     return Math.round(Math.random() * (max-min) + min);
 }
+const lastIndex = randomArray.length -1;
+console.log(randomArray[lastIndex]); 
