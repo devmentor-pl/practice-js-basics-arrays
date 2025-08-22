@@ -1,6 +1,6 @@
 const randomArray = createRandomArray();
 console.log(randomArray);
-
+const lastIndex = randomArray.length -1;
 
 
 // nie modyfikuj kodu poniżej!
@@ -16,8 +16,23 @@ function createRandomArray() {
     }
 
     return arr;
+
 }
 
 function getRandomInteger(min, max) {
     return Math.round(Math.random() * (max-min) + min);
 }
+
+for (let i = 0; i < randomArray.length; i++) {
+    console.log(randomArray[i]);
+}
+
+console.log('------------------------')
+
+randomArray.forEach (function(element){
+    console.log(element);
+})
+
+console.log('------------------------')
+
+console.log(randomArray[lastIndex]);
