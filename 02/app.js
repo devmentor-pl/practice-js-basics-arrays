@@ -1,7 +1,19 @@
 const randomArray = createRandomArray();
 console.log(randomArray);
 
+function showLengthOfArrWithFor(arr) {
+    console.log('for');
+    for (let i = 0; i < arr.length; i++) {
+        console.log(arr[i]);        
+    }
+}
+showLengthOfArrWithFor(randomArray);
 
+function showLengthOfArrWithForEach(arr) {
+    console.log('forEach');
+    arr.forEach(el => console.log(el));
+}
+showLengthOfArrWithForEach(randomArray);
 
 // nie modyfikuj kodu poniżej!
 
