@@ -21,3 +21,15 @@ function createRandomArray() {
 function getRandomInteger(min, max) {
     return Math.round(Math.random() * (max-min) + min);
 }
+
+console.log('dla for:')
+
+for (var i = 0; i<randomArray.length; i++)
+console.log(randomArray[i])
+
+console.log('dla forEach:')
+
+randomArray.forEach(function(i) {
+    console.log(i)
+})
+console.log(randomArray.length - 1)
