@@ -1,8 +1,6 @@
 const randomArray = createRandomArray();
 console.log(randomArray);
 
-
-
 // nie modyfikuj kodu poniżej!
 
 // funkcję może deklarować poniżej wywołania
@@ -21,3 +19,13 @@ function createRandomArray() {
 function getRandomInteger(min, max) {
     return Math.round(Math.random() * (max-min) + min);
 }
+
+for (let i = 0; i < randomArray.length; i++) {
+    console.log(randomArray[i]);
+}
+
+randomArray.forEach(element => {
+    console.log(element);
+})
+
+console.log(randomArray[randomArray.length - 1]);
