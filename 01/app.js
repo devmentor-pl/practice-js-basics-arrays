@@ -1,4 +1,4 @@
-const users = ['AnnaKowalska', 'MichałNowak', 'JuliaWiśniewska', 'PawełZieliński', 'KatarzynaKamińska']
+const users = ['Anna Kowalska', 'Michał Nowak', 'Julia Wiśniewska', 'Paweł Zieliński', 'Katarzyna Kamińska']
 
 console.log(users.length)
 
