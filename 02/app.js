@@ -21,3 +21,14 @@ function createRandomArray() {
 function getRandomInteger(min, max) {
     return Math.round(Math.random() * (max-min) + min);
 }
+
+for(let i=0; i < randomArray.length; i++) {
+    console.log('for: ', randomArray[i])
+}
+
+randomArray.forEach(function(element) {
+    console.log('forEach: ', element);
+})
+
+const lastElement = randomArray[randomArray.length - 1];
+console.log("last element: ", lastElement);
