@@ -1,7 +1,13 @@
 const randomArray = createRandomArray();
 console.log(randomArray);
 
+for(let i=0; i<randomArray.length; i++){
+    console.log(`Pętla for ${randomArray[i]}`);
+}
 
+randomArray.forEach(function(element, index, arr) {
+    console.log(`Pętla forEach ${element}`);
+})
 
 // nie modyfikuj kodu poniżej!
 
